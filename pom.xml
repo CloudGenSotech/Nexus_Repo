@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.jdevs</groupId>
-  <artifactId>Balu_Sai_Demo</artifactId>
+  <artifactId>ThanishInfoTech</artifactId>
   <version>1.01-SNAPSHOT</version>
   <artifactId>TestOne</artifactId>
   <version>Test_Project</version>
@@ -31,12 +31,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://192.168.80.157:8081/repository/Evening_Test_Release/</url>
+            <url>http://192.168.183.189:8081/repository/test1_release/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-           <url>http://192.168.80.157:8081/repository/Evening_Test_Snap/</url>
+           <url>http://192.168.183.189:8081/repository/Test_Snap_Shot/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
